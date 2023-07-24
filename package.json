@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "@types/bcrypt": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "sequelize-typescript": "^2.1.5"
+  }
+}
