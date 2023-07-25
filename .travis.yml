@@ -16,10 +16,10 @@ before_script:
 script:
   - docker --version # print the version for logging
   - docker-compose -f docker-compose-build.yaml build --parallel
-  - docker tag reverseproxy doudoulong1989/monolith-to-microservices-project
-  - docker tag udagram-api-feed doudoulong1989/monolith-to-microservices-project
-  - docker tag udagram-api-user doudoulong1989/monolith-to-microservices-project
-  - docker tag udagram-frontend doudoulong1989/monolith-to-microservices-project
+  - docker tag reverseproxy doudoulong1989/reverseproxy
+  - docker tag udagram-api-feed doudoulong1989/udagram-api-feed
+  - docker tag udagram-api-user doudoulong1989/udagram-api-user
+  - docker tag udagram-frontend doudoulong1989/udagram-frontend
 
 
 # Tasks to perform after the process is successful. Formatting the Docker username and password as below enables you to programmatically log in without having the password exposed in logs.
