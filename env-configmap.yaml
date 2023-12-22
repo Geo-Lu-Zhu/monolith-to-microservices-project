@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  POSTGRES_HOST: myproject3database.ca5ijujjsf1t.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  POSTGRES_PASSWORD: "12345678"
+  POSTGRES_USERNAME: lu
+  AWS_BUCKET: arn:aws:s3:::myproject3bucket-lu
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  JWT_SECRET: testing
+  URL: http://ad1bee83984244fe38dc0a2a2128a47e-1017021377.us-east-1.elb.amazonaws.com
